@@ -23,9 +23,9 @@ const itemsWithinBudget = (budget, items) => {
     let budgetItems = [];
 
     for (let objItem of items) {
-            if(objItem.price <= budget){
-                budgetItems.push(objItem.name);
-            }
+        if(objItem.price <= budget){
+            budgetItems.push(objItem.name);
+        }
     }
 return budgetItems;
 }
