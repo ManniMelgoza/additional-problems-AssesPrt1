@@ -19,7 +19,7 @@
 */
 
 // Your code here
-myCurry(func, numArgs) {
+let func = myCurry => (func, numArgs) {
   let counter = 0;
   if(counter !== nuArgs){
 
